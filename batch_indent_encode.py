@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os, codecs
 
 #计算该行应有的缩进空格（考虑Tab和空格混用的情况）
@@ -44,7 +45,7 @@ def travel(src_path, dest_path, item):
         travel(os.path.join(src_path, filename), os.path.join(dest_path, filename), item)
 
 if __name__ == '__main__':
-    src_root = '/Users/zyj'                             #接收要处理的文件夹（这里直接指定）
+    src_root = '/Users/zyj/zhayujie/tool'               #接收要处理的文件夹（这里直接指定）
     dest_root = src_root + '-new'                                           
-    item = '.c'                                                             
+    item = '.sh'                                                             
     travel(src_root, dest_root, item) 
