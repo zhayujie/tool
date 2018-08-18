@@ -8,8 +8,5 @@
 ### batch_indent_encode.py
 批量处理某目录下所有指定文件的缩进和编码问题
 
-### set_config.sh
-一键修改组织和通道名称
-
 ### count_line.py
 统计某目录下所有指定文件的行数
